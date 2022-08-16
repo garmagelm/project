@@ -1,0 +1,4 @@
+-r requirements-ci.txt
+
+pre-commit==2.20.0
+
