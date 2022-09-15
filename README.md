@@ -10,7 +10,7 @@
 git clone https://github.com/garmagelm/foodgram-project-react
 ```
 
-***Настройка переменного окружения .env:***
+***Настройка переменных окружения .env:***
 
 * Создаем виртуальное окружение командой
 ```bash
