@@ -4,6 +4,18 @@ ignore = E203, E501, W503,  # handled by black
          D104,  # no docstring in public package
          D200,  # One-line docstring should fit on one line with quotes
          D107,  #  Missing docstring in __init__
+         D101, # Missing docstring in public class
+         D106, # Missing docstring in public nested class
+         D102, # Missing docstring in public method
+         ANN001, # Missing type annotation for function argument 'obj'
+         ANN201, # Missing return type annotation for public function
+         C403, # Unnecessary list comprehension - rewrite as a set comprehension.
+         D100, # Missing docstring in public module
+         D103, # Missing docstring in public function
+         D105, # Missing docstring in magic method
+         A003, # class attribute "id" is shadowing a python builtin
+         R504, # unecessary variable assignement before return statement.
+         A002, # argument "id" is shadowing a python builtin
 
 exclude =
     *_venv
